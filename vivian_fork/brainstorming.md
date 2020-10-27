@@ -36,3 +36,14 @@ flask deployment:
 have a slider which changes mask sentiment past june 2020 to show changes in the curve
 
 show the equation produced in latex
+
+
+
+
+
+more ideas: probabilities if it would go up in a certain day or not
+
+me: make predictions, gvien our previous data, we can predict X Y Z
+
+forecasting: any good use
+
