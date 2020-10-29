@@ -136,8 +136,42 @@ project-5
 
 ## Data Dictionaries
 
-data dict for us politics 2016
+### sme.csv
 
-data dict for covid 19 nyt
+This data was combined from these sources:
+LIST SOURCES
 
-data dict for engineered columns
+|    name     |  type   | description |
+|-------------|---------|-------------|
+STATE         | object  | U.S. State
+NEVER         | float64 | NYT Survey: Survey Response of Mask Sentiment
+RARELY        | float64 | NYT Survey: Survey Response of Mask Sentiment
+SOMETIMES     | float64 | NYT Survey: Survey Response of Mask Sentiment
+FREQUENTLY    | float64 | NYT Survey: Survey Response of Mask Sentiment
+ALWAYS        | float64 | NYT Survey: Survey Response of Mask Sentiment
+mask_negative | float64 | Engineered Column: NEVER + RARELY
+mask_positive | float64 | Engineered Column: SOMETIMES + FREQUENTLY + ALWAYS
+votesDem      | int64   | 2016 Election: Democratic Votes
+percD         | float64 | 2016 Election: % Democratic Voters
+votesRep      | int64   | 2016 Election: Republican Voters
+percR         | float64 | 2016 Election: % Republican Voters
+electoralDem  | int64   | 2016 Election: Democratic Electoral College Count
+electoralRep  | int64   | 2016 Election: Republican ELectoral College Count
+Pop           | int64   | 2016 Election: Population of U.S. State
+blue          | int64   | Engineered Column: Boolean for political party
+red           | int64   | Engineered Column: Boolean for political party
+
+
+### covid_metrics_full_time.csv
+
+This data is entirely from [New York Times](https://github.com/nytimes/covid-19-data)'s COVID-19 Data. For our purposes we combined it 
+
+VARUN TALK ABOUT WHAT YOU DID TO COMBINE IT
+
+| name  |  type  |description|
+|-------|--------|-----------|
+|date   | object | Date Data Collected
+|state  | object | U.S. State
+|fips   | int64  | Federal Information Processing Standards: State Label
+|cases  | int64  | Cumulative Count of COVID-19 Cases
+|deaths | int64  | Cumulative Count of COVID-19 Deaths
