@@ -2,7 +2,7 @@
 The virus picture was sourced from the CDC as seen in this [article](https://www.statnews.com/2020/02/11/disease-caused-by-the-novel-coronavirus-has-name-covid-19/) and edited in [GIMP](https://www.gimp.org)
 # Project-5: COVID-19 Analysis
 
-Access to COVID-19 data is no issue. Any simple google search will reveal that major news sources, education and research instutions are publishing data in droves. The most brilliant minds of our time are coming together to fight a single global health pandemic. 
+Access to COVID-19 data is no issue. Any simple online search will reveal that major news sources, education and research instutions are publishing data in droves. The most brilliant minds of our time are coming together to fight this unprecedented global health pandemic. 
 
 ### Some Notable Examples
 * [CDC](https://covid.cdc.gov/covid-data-tracker/#cases_casesinlast7days)
@@ -19,7 +19,7 @@ General Assembly's DSI-824 cohort has requested a project with specific goals:
 - Estimating the economic impact of disasters.
 
 However, we are now in a world where there is too much data: a Data Scientist's dream. 
-Team V.A.V. has put together a suite of three applications that can be combined into an additional dashboard.
+Our team has put together a suite of three applications that best encapsulate our extensive analyses of COVID-19 in the United States.
 
 * [U.S. COVID Snapshots](https://dsir824-covid19-example.herokuapp.com)
 * [Daily Change in COVID cases](http://covid-by-state.herokuapp.com)
@@ -88,11 +88,11 @@ Our process for Exploratory Data Analysis was an open ended search in finding th
 
 # Findings
 
-Going into our exploration, Team V.A.V held some preconcieved biases about what we would find.
+Going into our exploration, our team acknowledged and considered any preconcieved biases about what we might find.
 
 * There is a correlation between a mask-state and its voting history in 2016.
 
-We found out that our initial assumptions are true:
+We found out that our initial hypotheses are true:
 
 ![img](assets/images/democrat_mask.png)
 ![img](assets/images/republican_mask.png)
@@ -102,9 +102,9 @@ We can classify the voting history of a state to its surveyed mask usage sentime
 ![img](assets/images/pos_mask_cases.png)
 ![img](assets/images/neg_mask_cases.png)
 
-Looking at mask sentiment vs percent change, we can see a very small linear correlation however it gives evidence to the idea that masks alone are not enough. We need a large commanded response to COVID-19. Individual activity is not enough.
+Looking at mask sentiment vs percent change, we can see a weak linear correlation; however it gives evidence to the idea that masks alone are not enough. We need a large commanded response to COVID-19. Individual activity is not enough.
 
-To emphasize this, Team V.A.V. has deployed 3 interactive apps to Heroku that can be used right now:
+To emphasize this, our team deployed 3 interactive apps to Heroku that can be used right now:
 
 ## US COVID Snapshots - Vivian Nguyen
 ![img](assets/gifs/vivian_app.gif)
