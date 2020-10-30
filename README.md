@@ -126,7 +126,12 @@ To emphasize this, Team V.A.V. has deployed 3 interactive apps to Heroku that ca
     
 # Future
 
-The data that we used to deploy these apps are static, but it would not be difficult to have dynamically updating applications which pull from databases weekly. This would be the first course of action. 
+The data that we used to deploy these apps are static, but a good practice for applications of this nature is to have a dynamically updating backend which pulls from databases weekly. This would require that we set up an automated git pull from New York Times’ COVID-19 repository, and appropriately update application repos with each update. 
+
+Our overall analysis of virus progression took a relatively investigative approach, focusing more on the descriptive of data we have in hand, and a bit less on the predictive with forecasting. The primary barrier here was finding the right modeling technique for forecasting, as ordinary/seasonal time-series methods were relatively uninformative and did not score well on train-test-split trial runs. But predictive analytics on COVID-19 represents a meaningful avenue for potential future directions, particularly during critical periods when cases are growing.
+
+To further move into that arena, we would likely need to shift perspective a bit into more specialized epidemiological models best-suited for predicting disease growth, such as SIR models. This page from QuantEcon represents a potential starting point for implementation of an SIR model in Python: https://python.quantecon.org/sir_model.html#The-SIR-Model
+ 
 
 # File Structure
 
