@@ -121,7 +121,7 @@ To emphasize this, our team deployed 3 interactive apps to Heroku that can be us
 ## [Plotting Daily Changes in COVID Cases - Varun Mohan](http://covid-by-state.herokuapp.com)
 ![img](assets/images/varun_app.png)
 * [Heroku: Plotting Daily Changes in COVID Cases](http://covid-by-state.herokuapp.com)
-    * [Source Code](https://github.com/vmohan96/P5_Flask_App)
+    * [Source Code](https://github.com/vmohan96/COVID-19-by-State-App)
     * This is an interactive line plot showing COVID metrics, regime states and marking super spreader events.
     
 # Future
