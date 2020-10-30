@@ -1,20 +1,53 @@
+![banner](assets/images/banner.png)
+The virus picture was sourced from the CDC as seen in this [article](https://www.statnews.com/2020/02/11/disease-caused-by-the-novel-coronavirus-has-name-covid-19/) and edited in [GIMP](https://www.gimp.org)
 # Project-5: COVID-19 Analysis
+
+Access to COVID-19 data is no issue. Any simple google search will reveal that major news sources, education and research instutions are publishing data in droves. The most brilliant minds of our time are coming together to fight a single global health pandemic. 
+
+### Some Notable Examples:
+* [CDC](https://covid.cdc.gov/covid-data-tracker/#cases_casesinlast7days)
+* [WHO](https://github.com/WorldHealthOrganization/app)
+* [John Hopkins University](https://coronavirus.jhu.edu/covid-19-daily-video)
+* [Our World in Data](https://ourworldindata.org/coronavirus)
+* [The New York Times](https://github.com/nytimes/covid-19-data)
+* [Tokyo Metropolitan Government](https://github.com/tokyo-metropolitan-gov/covid19)
+* [COVID in India](https://github.com/covid19india/covid19india-react)
+
+General Assembly's DSI-824 cohort has requested a project with specific goals:
+- preparing for emergencies,
+- rapidly responding to emergencies, and/or 
+- estimating the economic impact of disasters.
+
+We have put together a suite of three applications that can be combined into an additional dashboard.
+
+* [U.S. COVID Snapshots](https://dsir824-covid19-example.herokuapp.com)
+* [Daily Change in COVID cases](http://covid-by-state.herokuapp.com)
+* [Plot COVID-19 Rates](https://covid-plot-states.herokuapp.com)
 
 ## Problem Statements:
 
-### what are our problem statements
+### What does COVID-19 look like today and what are the stories the data says?
+
+Due to the nature of the kind of problem, such a statement has been segmented into 
+four ideas:
+
+* #### Why is a project like this worthwhile?
+
+* #### How has the virus progressed in the U.S. since February 2020?
+
+* #### How does mask sentiment look across the U.S. and how does it affect case growth?
+
+* #### How does mask sentiment vary by state, and does mask sentiment differentially affect COVID-19 growth rates?
+
+## Executive Summary:
+
+Misinformation 
 
 ## Table of Contents
 
 make a fancy hyperlink section here
 
 explain how to look at our repo
-
-## Executive Summary:
-
-put what we did here
-
-put link to our apps here, add screenshots of each app
 
 ### List of Deployed Applications:
 
@@ -24,10 +57,12 @@ put link to our apps here, add screenshots of each app
     * [Source Code for Application](https://github.com/ga-dsir824-collab/covid19-over-time)
     
 #### Alex Fioto
+![img]()
 * App
     * Source Code
 
 #### Varun Mohan
+![img]()
 * App
     * Source Code
 
@@ -55,82 +90,8 @@ talk about future development
 
 ## File Structure
 
-SAMPLE FILE STRUCTURE, UPDATE BEFORE FINAL SUBMISSION
 
 ```bash
-project-5
-├── 01-EDA_summarized.ipynb
-├── 02-Creating_Datasets.ipynb
-├── 03-Modeling.ipynb
-├── alex
-│   ├── ALEX-EDA.ipynb
-│   ├── democrat_mask.png
-│   ├── hmm_plotting_function.ipynb
-│   ├── mo_vs_ma.png
-│   ├── nd_vs_ri.png
-│   ├── neg_mask_cases.png
-│   ├── Percent Change.ipynb
-│   ├── plotly-maps.ipynb
-│   ├── pos_mask_cases.png
-│   ├── rate_plot_function.ipynb
-│   ├── republican_mask.png
-│   ├── TimeSeries.ipynb
-│   ├── Top 5 Neg.png
-│   ├── Top 5 Pos.png
-│   ├── total_us_cases_deaths.png
-│   ├── Total US Cases.png
-│   ├── Total US Deaths.png
-│   └── updated_hmm_plotting.ipynb
-├── assets
-│   └── images
-│       └── vivian_app.png
-├── data
-│   ├── 2016election.csv
-│   ├── county.csv
-│   ├── covid_mask_political_combined.csv
-│   ├── covid_metrics_full_time.csv
-│   ├── mask-use-by-county.csv
-│   ├── sme.csv
-│   ├── state.csv
-│   ├── two_month_snapshot.csv
-│   ├── us-states.csv
-│   └── ZIP-COUNTY-FIPS_2018-03.csv
-├── project.md
-├── README.md
-├── varun_stuff
-│   ├── hmm_plotting_function.ipynb
-│   ├── us-states.csv
-│   ├── VarunCaseDeathEDA-Copy1.ipynb
-│   └── VarunCaseDeathEDA.ipynb
-└── vivian_fork
-    ├── annotating_plots_labels.ipynb
-    ├── brainstorming.md
-    ├── combined_political_covid_percent.csv
-    ├── combine.ipynb
-    ├── correlation.png
-    ├── covid_mask_political_combined.csv
-    ├── demo_streamlit
-    │   ├── main.py
-    │   └── test.py
-    ├── EDA_and_graphs.ipynb
-    ├── fancy_heatmap.py
-    ├── interactrive_test.ipynb
-    ├── __pycache__
-    │   ├── fancy_heatmap.cpython-38.pyc
-    │   └── us_states.cpython-38.pyc
-    ├── us_states.py
-    ├── uwu.txt
-    └── web_app
-        ├── demo.py
-        ├── main.py
-        ├── __pycache__
-        │   └── us_states.cpython-38.pyc
-        ├── README.md
-        ├── requirements.txt
-        ├── setup.sh
-        └── us_states.py
-
-10 directories, 60 files
 
 ```
 
@@ -139,7 +100,8 @@ project-5
 ### sme.csv
 
 This data was combined from these sources:
-LIST SOURCES
+* [NYTimes COVID](https://github.com/nytimes/covid-19-data)
+* [2016 Presidential Election](https://worldpopulationreview.com/state-rankings/2016-election-results-by-state)
 
 |    name     |  type   | description |
 |-------------|---------|-------------|
@@ -164,9 +126,8 @@ red           | int64   | Engineered Column: Boolean for political party
 
 ### covid_metrics_full_time.csv
 
-This data is entirely from [New York Times](https://github.com/nytimes/covid-19-data)'s COVID-19 Data. For our purposes we combined it 
-
-VARUN TALK ABOUT WHAT YOU DID TO COMBINE IT
+Source:
+* [NYTimes COVID](https://github.com/nytimes/covid-19-data)
 
 | name  |  type  |description|
 |-------|--------|-----------|
@@ -175,3 +136,8 @@ VARUN TALK ABOUT WHAT YOU DID TO COMBINE IT
 |fips   | int64  | Federal Information Processing Standards: State Label
 |cases  | int64  | Cumulative Count of COVID-19 Cases
 |deaths | int64  | Cumulative Count of COVID-19 Deaths
+
+## Additional Resources
+
+We found this cool package to handle FIPS to States conversion:
+* [us_states](https://github.com/unitedstates/python-us)
