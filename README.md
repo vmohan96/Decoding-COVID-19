@@ -106,19 +106,19 @@ Looking at mask sentiment vs percent change, we can see a weak linear correlatio
 
 To emphasize this, our team deployed 3 interactive apps to Heroku that can be used right now:
 
-## US COVID Snapshots - Vivian Nguyen
+## [US COVID Snapshots - Vivian Nguyen](https://dsir824-covid19-example.herokuapp.com)
 ![img](assets/gifs/vivian_app.gif)
 * [Heroku: US Covid Metric Snapshots](https://dsir824-covid19-example.herokuapp.com)
     * [Source Code for Application](https://github.com/ga-dsir824-collab/covid19-over-time)
     * This is a choropleth map of the United States comparing true metrics to proportional metrics over time. The map shows that this goes from a state-to-state 
     
-## Plotting COVID-19 Rates - Alex Fioto
+## [Plotting COVID-19 Rates - Alex Fioto](https://covid-plot-states.herokuapp.com)
 ![img](assets/images/alex_app.png)
 * [Heroku: Plotting COVID-19 Rates](https://covid-plot-states.herokuapp.com)
     * [Source Code]()
     * This is an interactive line plot of comparing actual state by state COVID metrics with some humor
 
-## Plotting Daily Changes in COVID Cases - Varun Mohan
+## [Plotting Daily Changes in COVID Cases - Varun Mohan](http://covid-by-state.herokuapp.com)
 ![img](assets/images/varun_app.png)
 * [Heroku: Plotting Daily Changes in COVID Cases](http://covid-by-state.herokuapp.com)
     * [Source Code](https://github.com/vmohan96/P5_Flask_App)
