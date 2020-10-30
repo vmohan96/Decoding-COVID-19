@@ -104,7 +104,7 @@ Looking at mask sentiment vs percent change, we can see a very small linear corr
 To emphasize this, Team V.A.V. has deployed 3 interactive apps to Heroku that can be used right now:
 
 ## US COVID Snapshots - Vivian Nguyen
-![img](assets/images/vivian_app.png)
+![img](assets/gifs/vivian_app.gif)
 * [Heroku: US Covid Metric Snapshots](https://dsir824-covid19-example.herokuapp.com)
     * [Source Code for Application](https://github.com/ga-dsir824-collab/covid19-over-time)
     * This is a choropleth map of the United States comparing true metrics to proportional metrics over time. The map shows that this goes from a state-to-state 
