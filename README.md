@@ -27,18 +27,21 @@ Team V.A.V. has put together a suite of three applications that can be combined 
 
 # Problem Statements
 
-## What does COVID-19 look like today and what are the stories the data says?
+## What does COVID-19 progression look like in the United States?
 
-Due to the nature of the kind of problem, such a statement has been segmented into 
-four ideas:
+The primary motivator for this analysis stemmed from the United States’ position on the world stage with regards to COVID-19 case and death metrics. As of October 30, 2020 (when this project was initially completed), the United States’ cases account for about 20% of the global total, and deaths account for about 20% as well. With a little over 4% of the world population, we are being massively overrepresented.
 
-* #### Why is a project like this worthwhile?
+Our holistic goal for this analysis was to better understand why this may be the case. This is a big question; and we decided the best approach was to view and investigate on multiple fronts, by asking several smaller, more actionable problem questions:
 
-* #### How has the virus progressed in the U.S. since February 2020?
+* #### How does virus progression look nationwide, holistically, from February 2020 until now?
 
-* #### How does mask sentiment look across the U.S. and how does it affect case growth?
+* #### How does mask sentiment look across the U.S., and how does it affect case growth?
 
 * #### How does mask sentiment vary by state, and does mask sentiment differentially affect COVID-19 growth rates?
+
+* #### How does virus progression look at the state level, holistically?
+
+* #### How do major events, or superspreader events affect case growth?
 
 # Executive Summary
 
