@@ -61,9 +61,9 @@ Uniquely during the COVID-19 pandemic we have a health issue, a political issue 
 - [Table of Contents](#table-of-contents)
 - [Data and Methodology:](#data-and-methodology-)
 - [Findings](#findings)
-  * [US COVID Snapshots - Vivian Nguyen](#us-covid-snapshots---vivian-nguyen)
-  * [Plotting COVID-19 Rates - Alex Fioto](#plotting-covid-19-rates---alex-fioto)
-  * [Plotting Daily Changes in COVID Cases - Varun Mohan](#plotting-daily-changes-in-covid-cases---varun-mohan)
+  * [US COVID Snapshots](#us-covid-snapshots)
+  * [Plotting COVID-19 Rates](#plotting-covid-19-rates)
+  * [Plotting Daily Changes in COVID Cases](#plotting-daily-changes-in-covid-cases)
 - [Future](#future)
 - [File Structure](#file-structure)
 - [Data Dictionaries](#data-dictionaries)
@@ -106,22 +106,22 @@ Looking at mask sentiment vs percent change, we can see a weak linear correlatio
 
 To emphasize this, our team deployed 3 interactive apps to Heroku that can be used right now:
 
-## [US COVID Snapshots - Vivian Nguyen](https://dsir824-covid19-example.herokuapp.com)
+## [US Nationwide COVID-19 Snapshots](https://dsir824-covid19-example.herokuapp.com)
 ![img](assets/gifs/vivian_app.gif)
 * [Heroku: US Covid Metric Snapshots](https://dsir824-covid19-example.herokuapp.com)
-    * [Source Code for Application](https://github.com/ga-dsir824-collab/covid19-over-time)
-    * This is a choropleth map of the United States comparing true metrics to proportional metrics over time. The map shows that this goes from a state-to-state 
+    * [Source Code](https://github.com/ga-dsir824-collab/covid19-over-time)
+    * This is a choropleth map of the United States comparing true metrics to proportional metrics over time. The map shows that this goes from a state-to-state. 
     
-## [Plotting COVID-19 Rates - Alex Fioto](https://covid-plot-states.herokuapp.com)
+## [Multi-State COVID-19 Visualization](https://covid-plot-states.herokuapp.com)
 ![img](assets/images/alex_app.png)
 * [Heroku: Plotting COVID-19 Rates](https://covid-plot-states.herokuapp.com)
-    * [Source Code]()
-    * This is an interactive line plot of comparing actual state by state COVID metrics with some humor
+    * [Source Code](https://github.com/ga-dsir824-collab/multi-state-covid-plot)
+    * This is an interactive line plot of comparing actual state by state COVID metrics.
 
-## [Plotting Daily Changes in COVID Cases - Varun Mohan](http://covid-by-state.herokuapp.com)
+## [Plotting COVID-19 by State](http://covid-by-state.herokuapp.com)
 ![img](assets/images/varun_app.png)
 * [Heroku: Plotting Daily Changes in COVID Cases](http://covid-by-state.herokuapp.com)
-    * [Source Code](https://github.com/vmohan96/COVID-19-by-State-App)
+    * [Source Code](https://github.com/ga-dsir824-collab/COVID-19-by-State-App)
     * This is an interactive line plot showing COVID metrics, regime states and marking super spreader events.
     
 # Future
