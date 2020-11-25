@@ -18,7 +18,7 @@ General Assembly's DSI-824 cohort has requested a project with specific goals:
 - Rapidly responding to emergencies, and/or 
 - Estimating the economic impact of disasters.
 
-However, today's most pressing internation crisis is the COVID-19 pandemic. And with so much data being collected every day on the progression of the virus, this seemed to be an extremely viable and relevant analysis to pursue. We decided to focus on how COVID-19 has been progressing in the United States, the country which arguably has been hit the hardest.
+However, today's most pressing international crisis is the COVID-19 pandemic. And with so much data being collected every day on the progression of the virus, this seemed to be both a viable and relevant analysis to pursue. We decided to focus on how COVID-19 has been progressing in the United States, the country which arguably has been hit the hardest.
 
 Our team has put together a suite of three applications that best encapsulate our extensive analyses of COVID-19 in the United States.
 
@@ -46,7 +46,7 @@ Our holistic goal for this analysis was to better understand why this may be the
 
 # Executive Summary
 
-Uniquely during the COVID-19 pandemic we have a health issue, a political issue and a misinformation issue which all feed into one. To combat two of the three: political and misinformation, our team has developed a suite of tools which combine data from the New York Times and Our World in Data for a political view on the current pandemic crisis. By considering mask sentiment data (how one feels about wearing a mask) and the numbers, we show a bigger picture of the current social chasm that the U.S. is currently battling through. 
+Uniquely during the COVID-19 pandemic we have a health issue, a political issue and a misinformation issue which all feed into each other. To combat two of the three: political and misinformation, our team has developed a suite of tools which combine data from the New York Times and Our World in Data for a political view on the current pandemic crisis. By considering mask sentiment data (how one feels about wearing a mask) and the numbers, we show a bigger picture of the current social chasm that the U.S. is currently battling through. 
 
 # Table of Contents
 
